@@ -1,0 +1,66 @@
+page {
+  background-color: #eeeeee;
+}
+.fb_main {
+  padding: 20rpx;
+  color: #666;
+}
+.fb_main .fb_tips {
+  /*伸缩盒子*/
+  display: flex;
+  /*换行属性*/
+  flex-wrap: wrap;
+}
+.fb_main .fb_tips text {
+  width: 30%;
+  padding: 10rpx;
+  text-align: center;
+  background-color: #fff;
+  margin: 20rpx 10rpx;
+}
+.fb_main .fb_content {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.fb_main .fb_content textarea {
+  padding: 10rpx;
+}
+.fb_main .fb_content .fb_tool {
+  /*伸缩盒子*/
+  display: flex;
+  /*换行属性*/
+  flex-wrap: wrap;
+  padding-bottom: 30rpx;
+}
+.fb_main .fb_content .fb_tool button {
+  margin: 0;
+  padding: 0;
+  width: 90rpx;
+  height: 90rpx;
+  font-size: 60rpx;
+  /*伸缩盒子*/
+  display: flex;
+  /*水平居中*/
+  justify-content: center;
+  /*垂直居中*/
+  align-items: center;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  color: #ccc;
+}
+.fb_main .fb_content .fb_tool .up_img_item {
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.fb_main .form_btn_wrap {
+  margin-top: 20rpx;
+  display: flex;
+  /*从右向左对齐*/
+  justify-content: flex-end;
+}
+.fb_main .form_btn_wrap button {
+  margin: 0;
+  background-color: #66ccff;
+  color: #fff;
+  width: 30%;
+}

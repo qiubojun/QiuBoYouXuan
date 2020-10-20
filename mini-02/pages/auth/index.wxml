@@ -1,0 +1,8 @@
+<!--样式
+type="primary" 字体样式绿色
+plain          背景透明
+--->
+<button type="primary" plain open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">
+    获取授权
+</button>
+  

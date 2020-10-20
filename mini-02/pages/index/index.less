@@ -1,0 +1,68 @@
+.index_swiper{
+  swiper{
+    width: 755rpx;
+    height: 340rpx;
+    image{
+      width: 100%;
+    }
+  }
+}
+
+.inedx_cate{
+  display: flex;  //外层容器 伸缩盒子
+  navigator{
+    padding: 20rpx;
+    flex: 1; //内层 每个宽占一份（使宽度相等）
+    image{
+      width: 100%;
+    }
+  }
+}
+
+.index_floor{
+  .floor_group{
+    .floor_title{
+      padding: 10rpx 0;
+      image{
+        width: 100%;
+      }
+    }
+    .floor_list{
+      overflow: hidden; //清除浮动
+      navigator{
+        float:left;
+        width: 33.33%;
+        
+        // 后面四个超链接
+        &:nth-last-child(-n+4){
+          // 原图的宽度 232*386
+          // 232 / 386 = 33.33vm / height
+          // 第一张图片的高度height: 33.33vw * 386 / 232
+          height: 33.33vw * 386 /232 / 2;
+          border-left: 10rpx solid#fff; 
+        }
+
+        // 2 3 两个的超链接
+        &:nth-child(2),
+        &:nth-child(3){
+          border-bottom:10rpx solid#fff;
+        }
+
+
+
+        image{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+}
+
+
